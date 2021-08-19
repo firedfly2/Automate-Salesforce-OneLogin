@@ -1,3 +1,7 @@
+#chrome extension
+dist.crx
+dist.pem
+
 # Logs
 logs
 *.log

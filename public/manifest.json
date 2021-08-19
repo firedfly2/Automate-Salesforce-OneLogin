@@ -1,0 +1,16 @@
+{
+    "name": "Automate Salesforce OneLogin",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "SalesforceにOneLoginで自動ログイン",
+    "content_scripts": [{
+      "matches": ["https://*.my.salesforce.com/*"],
+      "js": [
+        "content_script.js"
+      ]
+    }],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png"
+    }
+}
