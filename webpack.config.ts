@@ -3,7 +3,8 @@ import * as webpack from 'webpack';
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 
 const config: webpack.Configuration = {
-  mode: 'development',
+  mode: 'production',
+  devtool: false,
   entry: {
     content_script: path.join(__dirname, 'src', 'content_script.ts')
   },

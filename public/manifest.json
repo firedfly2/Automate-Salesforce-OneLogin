@@ -1,7 +1,7 @@
 {
     "name": "Auto login to SS with OL",
     "version": "0.1.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "description": "OneLogin連携したSalesforceに自動ログインする",
     "content_scripts": [{
       "matches": ["https://*.my.salesforce.com/*"],
