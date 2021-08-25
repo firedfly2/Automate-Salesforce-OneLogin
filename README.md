@@ -1,6 +1,6 @@
-# Automate Salesforce OneLogin
+# Auto login to SS with OL
 
-Salesforceに自動ログインするChrome拡張です。
+OneLogin連携したSalesforceに自動ログインするChrome拡張です。
 
 ## なぜ作ったのか
 
