@@ -1,7 +1,6 @@
-function main() {
+async function main() {
     const url = window.location.href;
     const param = window.location.search;
-    console.log("auto login check!", url);
 
     // 自動ログアウトした場合か、そこからログインしてセッションエラーになった場合
     if (param.startsWith("?ec=") || url.endsWith("SamlError")) {
@@ -17,10 +16,11 @@ function main() {
         let retryCount = 0;
         while(retryCount++ < 5) {
             const button = document.querySelector<HTMLElement>(targetButton);
-            if(button) {
+            if(button){
                 button.click();
-                break;
+                return;
             }
+            await new Promise(r => setTimeout(r, 200));
         }
         return;
     }
