@@ -1,11 +1,13 @@
-# Auto login to SS with OL
+# [Auto login to SS with OL](https://chrome.google.com/webstore/detail/auto-login-to-ss-with-ol/ohblnbdkchcjpfalemlicmljpdmlmmmc)
 
-OneLogin連携したSalesforceに自動ログインするChrome拡張です。
+OneLogin連携したSalesforceに自動ログインするGoogle Chrome向けの拡張機能です。
 
 ## なぜ作ったのか
 
 SalesforceにOneLoginを組み合わせると自動ログアウトしたあとシングルサインオンエラーになる場合があります。
 クエリパラメータを削除すると正常にログインできるので、リダイレクトして自動ログインするようにしました。
+
+https://xxxxx.my.salesforce.com/ のようなドメインが対象です。
 
 ## 開発
 
